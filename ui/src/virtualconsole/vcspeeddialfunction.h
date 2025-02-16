@@ -39,7 +39,14 @@ public:
     {
         None = 0,
         Zero,
+        OneOnehundredTwelfth,
+        OneNineSixth,
+        OneFiftySixght,
+        OneTwentyEighth,
+        OneTwentyFourth,
         OneSixteenth,
+        OneFourteenth,
+        OneTwelfth,
         OneEighth,
         OneFourth,
         Half,
@@ -47,7 +54,15 @@ public:
         Two,
         Four,
         Eight,
-        Sixteen
+        Twelve,
+        Fourteen,
+        Sixteen,
+        TwentyFour,
+        TwentyEight,
+        FourtyEight,
+        FiftySix,
+        NinetySix,
+        OneHundredTwelve
     };
 
     /**

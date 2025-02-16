@@ -98,7 +98,15 @@ const QStringList &VCSpeedDialFunction::speedMultiplierNames()
         names = new QStringList;
         *names << "(Not Sent)";
         *names << "0";
+        *names << "1/112";
+        *names << "1/96";
+        *names << "1/56";
+        *names << "1/48";
+        *names << "1/28";
+        *names << "1/24";
         *names << "1/16";
+        *names << "1/14";
+        *names << "1/12";
         *names << "1/8";
         *names << "1/4";
         *names << "1/2";
@@ -106,7 +114,14 @@ const QStringList &VCSpeedDialFunction::speedMultiplierNames()
         *names << "2";
         *names << "4";
         *names << "8";
-        *names << "16";
+        *names << "12";
+        *names << "14";
+        *names << "24";
+        *names << "28";
+        *names << "48";
+        *names << "56";
+        *names << "96";
+        *names << "112";
     }
 
     return *names;
@@ -121,7 +136,15 @@ const QVector <quint32> &VCSpeedDialFunction::speedMultiplierValuesTimes1000()
         values = new QVector <quint32>;
         *values << 0; // None
         *values << 0; // Zero
+        *values << 1000 / 112;
+        *values << 1000 / 96;
+        *values << 1000 / 56;
+        *values << 1000 / 48;
+        *values << 1000 / 28;
+        *values << 1000 / 24;
         *values << 1000 / 16;
+        *values << 1000 / 14;
+        *values << 1000 / 12;
         *values << 1000 / 8;
         *values << 1000 / 4;
         *values << 1000 / 2;
@@ -129,7 +152,15 @@ const QVector <quint32> &VCSpeedDialFunction::speedMultiplierValuesTimes1000()
         *values << 1000 * 2;
         *values << 1000 * 4;
         *values << 1000 * 8;
+        *values << 1000 * 12;
+        *values << 1000 * 14;
         *values << 1000 * 16;
+        *values << 1000 * 24;
+        *values << 1000 * 28;
+        *values << 1000 * 48;
+        *values << 1000 * 56;
+        *values << 1000 * 96;
+        *values << 1000 * 112;
     }
 
     return *values;
