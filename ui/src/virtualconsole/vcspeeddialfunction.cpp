@@ -108,11 +108,17 @@ const QStringList &VCSpeedDialFunction::speedMultiplierNames()
         *names << "1/14";
         *names << "1/12";
         *names << "1/8";
+        *names << "1/7";
+        *names << "1/6";
         *names << "1/4";
+        *names << "1/3";
         *names << "1/2";
         *names << "1";
         *names << "2";
+        *names << "3";
         *names << "4";
+        *names << "6";
+        *names << "7";
         *names << "8";
         *names << "12";
         *names << "14";
