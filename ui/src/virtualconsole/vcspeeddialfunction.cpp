@@ -146,11 +146,17 @@ const QVector <quint32> &VCSpeedDialFunction::speedMultiplierValuesTimes1000()
         *values << 1000 / 14;
         *values << 1000 / 12;
         *values << 1000 / 8;
+        *values << 1000 / 7;
+        *values << 1000 / 6;
         *values << 1000 / 4;
+        *values << 1000 / 3;
         *values << 1000 / 2;
         *values << 1000;
         *values << 1000 * 2;
+        *values << 1000 * 3;
         *values << 1000 * 4;
+        *values << 1000 * 6;
+        *values << 1000 * 7;
         *values << 1000 * 8;
         *values << 1000 * 12;
         *values << 1000 * 14;
